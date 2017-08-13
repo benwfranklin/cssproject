@@ -1,0 +1,129 @@
+* {
+	font-family: Helvetica
+}
+/*This says that the area my navbar lives in should be a fixed box
+with a light grey background*/
+nav {
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: lightgrey;
+}
+
+/*This sets the font for my header and links*/
+.gregslist > h1, .links > a {
+	font-size: 16px;
+}
+
+h1, a {
+	text-decoration: none;
+}
+
+.gregslist > h1 {
+	padding: 0px;
+	margin: 0px;
+	font-weight: normal;
+}
+
+a {
+	color: purple;
+}
+
+a:hover {
+	color: black;
+}
+
+/*This tells my divs marked 'inline' to display as inline blocks
+now I can give them a width etc. I've also used it to make both
+blocks have absolute position, but this is misleading(?) or badly
+named.*/
+.inline {
+	display: inline-block;
+}
+
+
+.links {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	bottom: 10px;
+}
+
+.gregslist {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+/*END OF NAV, START OF MAIN*/
+
+.searchbar {
+	width: 395px;
+}
+
+img.searchbar, input.searchbar {
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+img {
+	height: 28px;
+	border: solid lightgrey 1px;
+	border-radius: 3px;
+	float: right;
+}
+
+input {
+	width: 350px;
+	border: solid lightgrey 1px;
+	padding: 5px;
+	border-radius: 3px;
+	font-size: 15px
+}
+
+main {
+	margin-top: 60px;
+	margin-left: 80px;
+}
+
+/*DIRECTION BAR*/
+
+.direction { 
+	width: 300px; 
+	height: 50px;
+	box-sizing: content-box;
+	font-size: 0px;
+}
+
+.directbox {
+	box-sizing: border-box;
+	display: inline-block;
+	height: 100%;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+}
+
+.pages {
+	width: 50%;
+	border: solid lightgrey 1px;
+}
+
+.prev, .next {
+	width: 25%;
+	border: 1px solid lightgrey;
+}
+
+.prev {
+	border-right: none;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.next {
+	border-left: none;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
