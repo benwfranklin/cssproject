@@ -14,7 +14,7 @@ nav {
 
 /*This sets the font for my header and links*/
 .gregslist > h1, .links > a {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 h1, a {
@@ -27,11 +27,11 @@ h1, a {
 	font-weight: normal;
 }
 
-a {
+.links > a {
 	color: purple;
 }
 
-a:hover {
+.links > a:hover {
 	color: black;
 }
 
@@ -100,7 +100,7 @@ main {
 .directbox {
 	box-sizing: border-box;
 	display: inline-block;
-	height: 100%;
+	height: 40px;
 	font-size: 15px;
 	padding: 10px;
 	text-align: center;
@@ -127,3 +127,27 @@ main {
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
+
+.resultsbox {
+	padding: 0px;
+}
+
+.resultsbox > li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+.result > a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
+.result > a:hover {
+	text-decoration: underline;
+}
+
+.resultsbox > li > span {
+	color: grey;
+}
+
