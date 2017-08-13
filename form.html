@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles/form.css">
+	<title>AnalogSea Sign-up Form</title>
+	<meta description="A page to sign up for AnalogSea's digital services">
+</head>
+<body>
+<h1> AnalogSea Sign-up </h1>
+<img src="images/logo.png" class="logoimg" alt="AnalogSea Logo">
+	<div class = "formcontainer">
+		<h2> Sign up</h2>
+		<form action="/signup" method="post">
+		<label for="email">Email</label><input id="email" type="email" name="emailbox" placeholder="foo@bar.com">
+		<label for="password">Password</label><input id="password" type="password" name="passwordbox" placeholder="Password">
+		<button type="submit">Sign up</button>
+		<a href="forgot-password/new">Forgot password?</a>
+		</form>
+	</div>
+<span class="hasaccount"> Already have an account? <a href="/login">Log in</a></span>
+</body>
+</html>
