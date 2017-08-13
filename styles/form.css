@@ -1,8 +1,8 @@
 * {
-	font-family: Helvetica;
+	font-family: "Roboto", Helvetica, sans-serif;
 }
 body {
-	background-color: #5294e1;
+	background-color: #298eea;
 	padding: 30px;
 	text-align: center;
 }
